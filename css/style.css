@@ -2,3 +2,70 @@
     margin: 0;
     padding: 0;
 }
+
+/* header */
+
+header {
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    position: sticky;
+    padding: 20px 10%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    top: 0;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 30px;
+    height: 30px;
+    background-color: coral;
+    color:coral;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+
+.logo h3 {
+    font-size: 1.2em;       
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: coral;
+    text-decoration: underline;
+}
+
+.reserver {
+    background-color: coral;
+    padding: 8px 17px;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.reserver:hover {
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+    text-decoration: none;
+    color: white;
+}
