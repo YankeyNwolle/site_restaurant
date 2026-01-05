@@ -101,3 +101,137 @@ nav ul li a:hover {
     font-size: 1.1em;
 }
 
+/* section à propos de nous */
+
+.propos {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 90px 10%;    
+}
+
+.propos h6,
+.propos h1,
+.propos p {
+  flex: 1 1 auto; 
+  min-width: 0; 
+  margin-left: 15px;
+}
+
+.propos h6 {
+  font-size: 1.2em;
+  color:coral;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.propos h1 {
+  font-size: 3.2em;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.propos img {
+  width: 500px;
+  max-width: 60%;
+  height: auto;
+  border-radius: 10px;
+  margin-left: auto; 
+}
+
+.propos p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555555;
+}
+
+.partenaires {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.partenaires img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; 
+  border: 2px solid white; 
+  margin-left: -12px; 
+  background: white;
+}
+
+/* section spécialité */
+
+.specialite {
+    margin-top: 5px;
+    padding: 50px;
+    background-color: #f9f9f9;
+    text-align: center;
+    align-items: center;
+}
+
+.specialite h2 {
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.specialite p {
+    color: #D2B48C;
+}
+
+ul {
+    padding: 25px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    cursor: pointer;
+    color: #D2B48C;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li:hover {
+    color:#555555;
+    text-decoration: underline;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    display: flex; /* Active Flexbox */
+    flex-direction: row-reverse; /* Inverse l'ordre (image à droite, texte à gauche) */
+    align-items: center; /* Centre verticalement */
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px; /* Coins arrondis */
+    background-color: #f9f9f9;
+    width: 100%;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.image_card {
+    margin-left: 20px; /* Espace entre l'image et le texte */
+}
+
+.card_title {
+    flex-grow: 1; /* Permet au texte de prendre l'espace disponible */
+}
+
+.card img {
+    max-width: 150px; /* Taille de l'image */
+    height: auto;
+    border-radius: 4px;
+}
