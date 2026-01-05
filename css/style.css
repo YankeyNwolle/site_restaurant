@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Inconsolata', monospace;
 }
 
 /* header */
@@ -16,6 +17,8 @@ header {
     top: 0;
     text-transform: capitalize;
     font-size: 16px;
+    z-index: 1000;
+    background-color: white;
 }
 
 .logo {
@@ -69,3 +72,32 @@ nav ul li a:hover {
     text-decoration: none;
     color: white;
 }
+
+/* main page */
+
+.main {
+    background-image: url("../image/savourez.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 650px; 
+    padding: 30px 10%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+
+}
+
+.main h2{
+    font-size: 3.8rem;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.main p {
+    font-size: 1.1em;
+}
+
