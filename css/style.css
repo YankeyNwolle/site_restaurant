@@ -241,6 +241,10 @@ ul li:hover {
     border-radius: 4px;
 }
 
+.btn {
+    font-size: 1.3rem;
+}
+
 /* section partage */
 
 .partage {
